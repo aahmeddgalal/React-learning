@@ -6,6 +6,6 @@ export const CustomeButton = () => {
 
   // return <button onClick={handelClick}>Like</button>
   return <button onClick={
-    alert("Thanks for liking!")
+    () => alert("Thanks for liking!")
   }>Like</button>
 }
