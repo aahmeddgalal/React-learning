@@ -1,0 +1,14 @@
+.alert {
+  color: (0, 0, 0);
+  padding: 16px
+}
+
+.success {
+  background-color: #10b981;
+}
+
+.error {
+  background-color: red;
+}
+
+/* for the use of differant approshes we use the js templete leterals */

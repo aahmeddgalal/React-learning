@@ -6,4 +6,4 @@ export const NameList  = () => {
 }
 
 // you can use the name as a key, it works, until you have duplicates
-//the map fun gives us an index param
+// the map fun gives us an index param
