@@ -5,6 +5,7 @@ import { Alert } from './Alert'
 import { Contact } from './Contact'
 import { Count } from './Count'
 import { PrevStateCounter } from './PrevStateCounter'
+import { BatchingCounter } from './BatchingCounter'
 
 
 
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <>
-    <PrevStateCounter
+    <BatchingCounter />
+    <PrevStateCounter />
     <Count />
     <Contact />
     <Alert>Right!</Alert>
