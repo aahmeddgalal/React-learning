@@ -16,6 +16,7 @@ export const BatchingCounter = () => {
   // - the snapshot behavior
   // - using updated function for dependant updates
   // - react optimse everything with batching
+   
 
   const handleClick = () => {
     setCount((prev) => prev + 1); //render sanpshots
@@ -35,3 +36,4 @@ export const BatchingCounter = () => {
     </div>
   );
 };
+
