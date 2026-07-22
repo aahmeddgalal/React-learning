@@ -4,6 +4,7 @@ import { Button } from './Button'
 import { Alert } from './Alert'
 import { Contact } from './Contact'
 import { Count } from './Count'
+import { PrevStateCounter } from './PrevStateCounter'
 
 
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+    <PrevStateCounter
     <Count />
     <Contact />
     <Alert>Right!</Alert>
